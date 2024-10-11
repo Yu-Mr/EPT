@@ -1,0 +1,12 @@
+menu "y_test"
+config SECOND_DRIVER
+	tristate  "yhw second driver for test"
+	default m
+	help
+                20241009
+config THIRD_DRIVER
+	tristate  "yhw third driver for test"
+	default m
+	help
+                20241011
+endmenu

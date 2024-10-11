@@ -1,0 +1,8 @@
+menu "yhw drivers"
+source "drivers/y_projects/y_test/Kconfig"
+config FIRST_DRIVER
+	tristate  "yhw first driver for test"
+	default m
+	help
+                20241009
+endmenu
